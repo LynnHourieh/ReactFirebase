@@ -2,12 +2,12 @@ import React, { useRef, useState, memo } from "react";
 import { Form, Button, Card, Alert } from "react-bootstrap";
 import { useContext } from "react";
 import AuthContext from "../Context/AuthContext";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function ForgetPassword() {
   const { resetPassword } = useContext(AuthContext);
   const emailRef = useRef();
-  const navigate = useNavigate();
+
   const [error, setError] = useState("");
   const [message, setMessage] = useState("");
   const [loading, setLoading] = useState(false);

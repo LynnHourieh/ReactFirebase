@@ -8,6 +8,7 @@ import Login from "./Component/Login";
 import PrivateRoute from "./Component/PrivateRoute";
 import ForgetPassword from "./Component/ForgetPassword";
 import UpdateProfile from "./Component/UpdateProfile";
+import "./App.css"
 function App() {
   return (
     <>

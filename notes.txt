@@ -1,3 +1,6 @@
 yarn create react-app my-app
 yarn add firebase
 
+1) yarn add react-hook-form yup
+2)yarn add @hookform/resolvers
+3) schema 
